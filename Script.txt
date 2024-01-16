@@ -4,7 +4,8 @@ yes | pkg update -y
 yes | pkg upgrade -y
 pkg install git -y
 git clone https://github.com/harsharti/share.git
-mv /data/data/com.termux/files/home/share/list.sh /data/data/com.termux/files/home
+mv /data/data/com.termux/files/home/share/file_list.sh /data/data/com.termux/files/home
 mv /data/data/com.termux/files/home/share/share.sh /data/data/com.termux/files/home
 chmod +x list.sh
 chmod +x share.sh
+./file_list.sh
