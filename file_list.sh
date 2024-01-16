@@ -1,4 +1,4 @@
-ist_files() {
+list_files() {
     local dir="$1"
     local prefix="$2"
 
