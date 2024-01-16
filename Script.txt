@@ -1,0 +1,6 @@
+yes | apt update -y
+yes | apt upgrade -y
+yes | pkg update -y
+yes | pkg upgrade -y
+pkg install git -y
+git clone
